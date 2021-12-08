@@ -1,0 +1,21 @@
+.layout {
+    color: var(--txt-color);
+}
+
+.layout__content {
+    padding-left: var(--sidebar-width);
+    background-color: var(--second-bg);
+    min-height: 100vh;
+}
+
+.layout__content-main {
+    padding: 30px;
+}
+
+.layout__content {
+    left: 95.83%;
+    right: -75%;
+    top: 7.87%;
+    bottom: 8.43%;
+    background: linear-gradient(180.49deg, #FFD5D2 0.83%, #FFF2F1 14.56%, #FFE1DF 23.58%, #FFFFFF 34.09%, #FFF2F1 70.46%, #FFF2F1 80.56%, rgba(248, 112, 96, 0.1) 86.25%);
+}

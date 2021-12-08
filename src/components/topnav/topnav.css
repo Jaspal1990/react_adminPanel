@@ -1,0 +1,141 @@
+.topnav {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--topnav-height);
+}
+
+.topnav__search {
+    position: relative;
+    height: 50px;
+    background-color: var(--main-bg);
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.topnav__search > input {
+    height: 100%;
+    width: 100%;
+    padding: 10px 60px 10px 20px;
+    font-size: 1rem;
+    border-radius: var(--border-radius);
+    color: var(--txt-color);
+    background-color: var(--main-bg);
+}
+
+.topnav__search > i {
+    font-size: 1.5rem;
+    position: fixed;
+    right: 595px;
+    top: 32px;
+    z-index: 1;
+    color: #fff;
+}
+
+i.bx.bx-world {
+    position: relative;
+    right: 315px;
+    z-index: 1;
+    color: #f87060;
+}
+
+.topnav__right {
+    display: flex;
+    align-items: center;
+}
+
+.topnav__right-item ~ .topnav__right-item {
+    margin-left: 30px;
+}
+
+.notification-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #f87060;
+    color: #ffffff;
+    margin: 40px 10px 10px 10px;
+    border-radius: 15px;
+}
+
+.notification-item:hover {
+    background-color: #f87060;
+}
+
+.notification-item > i {
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+
+.topnav__right-user {
+    display: flex;
+    align-items: center;
+}
+
+.topnav__right-user__image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.topnav__right-user__image > img {
+    width: 100%;
+}
+
+.topnav__right-user__name {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.topnav {
+    position: absolute;
+    width: 100%;
+    height: 92px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgb(163 171 185 / 24%);
+}
+
+button.documentation {
+    position: fixed;
+    width: 202px;
+    height: 44px;
+    left: 948px;
+    color: #FFFFFF;
+    top: 22px;
+    background: #F87060;
+    box-shadow: 0px 4px 90px rgb(163 171 185 / 24%);
+    border-radius: 15px;
+}
+
+button.english:after {
+    content: "▼";
+    padding: 12px 8px;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    z-index: 1;
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    pointer-events: none;
+}
+
+button.english {
+    position: absolute;
+    width: 148px;
+    height: 44px;
+    left: 1200px;
+    top: 22px;
+    background: #FFF2F1;
+    box-shadow: 0px 4px 90px rgb(163 171 185 / 24%);
+    border-radius: 15px;
+    color: #f87060;
+}
